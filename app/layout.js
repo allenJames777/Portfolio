@@ -5,6 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  // Absolute base for link-preview (Open Graph) image URLs
+  metadataBase: new URL("https://allenjameslluvido.vercel.app"),
   title: "Allen James Lluvido | Workflow Engineer",
   description:
     "Portfolio of Allen James Lluvido — Workflow Engineer specializing in automation, integrations, and data analytics.",
