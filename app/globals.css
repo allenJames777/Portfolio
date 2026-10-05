@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Enable class-based dark mode (toggle .dark on <html>) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Smooth dark mode transition */
+html {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* ========================================
+   HORIZONTAL SCROLL LAYOUT
+   The site scrolls left/right between sections.
+   Each section is a full-screen panel.
+   ======================================== */
+
+html,
+body {
+  height: 100dvh;
+  overflow: hidden;
+}
+
+/* Hide scrollbar on the main scroll container */
+#scroll-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#scroll-container::-webkit-scrollbar {
+  display: none;
+}
