@@ -37,6 +37,26 @@ export const projects = [
     ],
   },
   {
+    id: "budgie",
+    title: "Budgie",
+    type: "Personal Project",
+    role: "Mobile Developer",
+    period: "October – November 2026",
+    description:
+      "A free, offline daily budget app for Android, made for how money works in the Philippines. It shows one number — how much you can spend today — and keeps wallets, bills, utang, paluwagan and the 13th month, with price-tag scanning, home-screen widgets and encrypted storage. No account, no ads, no internet.",
+    tags: ["Flutter", "Dart", "Riverpod", "drift (encrypted SQLite)", "ML Kit", "Kotlin widgets", "Android"],
+    image: "/projects/budgie.gif",
+    imageFit: "cover",
+    links: [
+      {
+        label: "Download for Android",
+        url: "https://github.com/allenJames777/budgie-app/releases/latest/download/budgie.apk",
+        download: true,
+      },
+      { label: "How to install", url: "https://github.com/allenJames777/budgie-app" },
+    ],
+  },
+  {
     id: "super-news",
     title: "Super News",
     type: "Personal Project",
