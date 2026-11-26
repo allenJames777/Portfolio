@@ -21,6 +21,22 @@
 
 export const projects = [
   {
+    id: "crest",
+    title: "Crest",
+    type: "Personal Project",
+    role: "Developer",
+    period: "November 2026",
+    description:
+      "A \"dynamic island\" for Windows: a small island at the top of the screen that shows what's playing and controls it (play, skip, seek, volume, several apps at once), plus named activity timers that rest as a tiny pill. It tucks away over full-screen apps and uses almost no CPU or memory. Windows 10 and 11 only.",
+    tags: ["C#", "WPF", ".NET 10", "Windows APIs", "xUnit"],
+    image: "/projects/crest.gif",
+    imageFit: "cover",
+    links: [
+      { label: "Download for Windows", url: "https://github.com/allenJames777/crest-island/releases/latest" },
+      { label: "GitHub", url: "https://github.com/allenJames777/crest-island" },
+    ],
+  },
+  {
     id: "super-news",
     title: "Super News",
     type: "Personal Project",
